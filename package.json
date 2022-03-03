@@ -1,0 +1,41 @@
+{
+  "name": "mini_expense_tracker",
+  "version": "1.0.0",
+  "description": "Minimal Expense Tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairrsyedd/Mini_Expense_Tracker.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "MongoDB",
+    "Redux",
+    "Redis"
+  ],
+  "author": "Syed Muhammed Umair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umairrsyedd/Mini_Expense_Tracker/issues"
+  },
+  "homepage": "https://github.com/umairrsyedd/Mini_Expense_Tracker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
